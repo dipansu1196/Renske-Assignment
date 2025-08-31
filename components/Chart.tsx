@@ -28,21 +28,6 @@ export default function Chart({ data, showBollinger, bollingerOptions, bollinger
     
     try {
       chartInstance.current = init(chartRef.current, {
-        grid: {
-          show: true,
-          horizontal: {
-            show: true,
-            size: 1,
-            color: '#393939',
-            style: 'solid'
-          },
-          vertical: {
-            show: true,
-            size: 1,
-            color: '#393939',
-            style: 'solid'
-          }
-        },
         candle: {
           margin: {
             bottom: 6,

@@ -11,7 +11,13 @@
     "type-check": "tsc --noEmit",
     "export": "next build && next export"
   },
-  "keywords": ["bollinger-bands", "trading", "technical-analysis", "charts", "nextjs"],
+  "keywords": [
+    "bollinger-bands",
+    "trading",
+    "technical-analysis",
+    "charts",
+    "nextjs"
+  ],
   "author": "Your Name",
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.12",
